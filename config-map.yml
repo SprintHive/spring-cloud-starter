@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cloud-reload
+data:
+  application.properties: |-
+    property.message=initial.configmap.message
